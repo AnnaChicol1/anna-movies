@@ -1,4 +1,4 @@
-/**copyright 3032 @anna*/
+/**copyright 2023 anna*/
 /**CUSTOM PROPERTY*/
 
 :root {
@@ -86,4 +86,46 @@ body{
 
 body.active{
     overflow: hidden;
+}
+
+/*-----------------*/
+/* HEADER */
+/*-----------------*/
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    transition: var(--transition-2);
+    z-index: 2;
+}
+
+.container{
+    padding: 15px; 
+}
+
+.header:active{
+    background: var(--eerie-black);
+    padding: 20px;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-actions{
+    display: none;
+}
+.btn-mobile ion-icon{
+    color: var(--white);
+    color: var(--white)
+}
+
+button{
+    background: transparent;
+    border: none;
 }
